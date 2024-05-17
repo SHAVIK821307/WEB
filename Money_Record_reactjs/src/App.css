@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+}
+.head_container {
+  /* background-color: rgb(126, 167, 199); */
+  color: rgb(255, 255, 255);
+  padding: 3px 0;
+}
+.head {
+  text-align: center;
+}
+input {
+  width: 100%;
+  border-radius: 10px;
+  padding: 8px;
+  text-transform: capitalize;
+  margin: 0 10px;
+}
+.show input {
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+}
+.showName {
+  font-weight: 700;
+}
